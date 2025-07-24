@@ -59,35 +59,35 @@ Each row represents a **30-minute surveillance period** at the food platform. It
 
 ---
 
-## 🧭 Project Timeline & Tasks
+## 🧭 Project Tasks
 
-### 🔹 Phase 1: Setup and Planning
+### 🔹 1: Setup and Planning
 - Understand project objectives (Read the pdf on Learnline and the dataset description here)
 - Assign team roles (Analyst, Cleaner, Visualizer, Writer)
 - Create shared workspace Github and Deepnote
 - Download datasets from Learnline
 
-### 🔹 Phase 2: Data Exploration & Cleaning (Week 2)
+### 🔹 2: Data Exploration & Cleaning (Week 2)
 - Inspect data types, missing values, and outliers
 - Clean and preprocess data ethically
 - Perform exploratory data analysis (EDA)
 - Create summary stats and graphs
 
-### 🔹 Phase 3: Investigation A – Bat Perception of Rats 
+### 🔹 3: Investigation A – Bat Perception of Rats 
 - Feature engineering: Rat presence, response time, risk-taking
 - Descriptive stats: Behaviour with vs without rats
 - Inferential analysis: t-tests, chi-square tests
 - Visualizations: Boxplots, bar graphs, timelines
 - Deliverable: Team video presentation (Assessment 2)
 
-### 🔹 Phase 4: Investigation B – Seasonal Behaviour Changes
+### 🔹 4: Investigation B – Seasonal Behaviour Changes
 - Filter datasets by `season` and `month`
 - Analyze seasonal trends in bat and rat activity
 - Compare behaviour across winter vs spring
 - Optional: incorporate external environmental data
 - Deliverable: Analytical content for group report (Assessment 3)
 
-### 🔹 Phase 5: Group Report Writing
+### 🔹 5: Group Report Writing
 - Structure the report:
   - Introduction
   - Methodology
@@ -103,3 +103,18 @@ Each row represents a **30-minute surveillance period** at the food platform. It
 - Final polish and formatting
 - Submit report and forms on time
 ---
+
+
+STRUCTURE: HIT140_Project/
+│
+├── data/
+│   ├── dataset1.csv
+│   └── dataset2.csv
+│
+├── notebooks/
+│   ├── 01_data_cleaning.ipynb
+│   └── 02_investigation_A.ipynb
+│
+├── README.md
+└── requirements.txt
+
