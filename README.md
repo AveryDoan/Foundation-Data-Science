@@ -12,7 +12,7 @@ LINK FOR RESULT REFERENCE: https://mlorbach.gitlab.io/datasets/
 
 ## 📌 Project Overview
 
-We aim to answer two key scientific investigations using real-world surveillance data:
+answer two key scientific investigations using real-world surveillance data:
 
 ### 🔍 Investigations
 - **Investigation A**: Do bats perceive rats as competitors or predators?  
@@ -21,7 +21,7 @@ We aim to answer two key scientific investigations using real-world surveillance
 
 ## 🗂️ Datasets Used
 
-## 📁 Dataset 1: `dataset1.csv` — Individual Bat Landings
+### 📁 Dataset 1: `dataset1.csv` — Individual Bat Landings
 
 Each row represents a **single bat landing event** at the food platform. It captures the context of the event, the bat’s response, and whether it got a reward.
 
@@ -42,7 +42,7 @@ Each row represents a **single bat landing event** at the food platform. It capt
 
 ---
 
-## 📁 Dataset 2: `dataset2.csv` — 30-Minute Observation Periods
+### 📁 Dataset 2: `dataset2.csv` — 30-Minute Observation Periods
 
 Each row represents a **30-minute surveillance period** at the food platform. It summarizes how many bats and rats were observed, and how much food remained.
 
@@ -61,33 +61,33 @@ Each row represents a **30-minute surveillance period** at the food platform. It
 
 ## 🧭 Project Tasks
 
-### 🔹 1: Setup and Planning
+### 1: Setup and Planning
 - Understand project objectives (Read the pdf on Learnline and the dataset description here)
-- Assign team roles (Analyst, Cleaner, Visualizer, Writer)
+- Assign team roles (Analyst - 2 people, Cleaner - 2 people, Visualizer - 2, Writer - 4)
 - Create shared workspace Github and Deepnote
 - Download datasets from Learnline
 
-### 🔹 2: Data Exploration & Cleaning (Week 2)
+### 2: Data Exploration & Cleaning (Week 2)
 - Inspect data types, missing values, and outliers
 - Clean and preprocess data ethically
 - Perform exploratory data analysis (EDA)
 - Create summary stats and graphs
 
-### 🔹 3: Investigation A – Bat Perception of Rats 
+### 3: Investigation A – Bat Perception of Rats 
 - Feature engineering: Rat presence, response time, risk-taking
 - Descriptive stats: Behaviour with vs without rats
 - Inferential analysis: t-tests, chi-square tests
 - Visualizations: Boxplots, bar graphs, timelines
 - Deliverable: Team video presentation (Assessment 2)
 
-### 🔹 4: Investigation B – Seasonal Behaviour Changes
+### 4: Investigation B – Seasonal Behaviour Changes
 - Filter datasets by `season` and `month`
 - Analyze seasonal trends in bat and rat activity
 - Compare behaviour across winter vs spring
 - Optional: incorporate external environmental data
 - Deliverable: Analytical content for group report (Assessment 3)
 
-### 🔹 5: Group Report Writing
+### 5: Group Report Writing
 - Structure the report:
   - Introduction
   - Methodology
@@ -97,12 +97,6 @@ Each row represents a **30-minute surveillance period** at the food platform. It
   - References (APA style)
   - AI tools usage declaration
 - Peer review & editing
-
-### 🔹 Phase 6: Final Submission
-- Review Learnline instructions
-- Final polish and formatting
-- Submit report and forms on time
----
 
 
 STRUCTURE: HIT140_Project/
