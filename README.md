@@ -1,10 +1,11 @@
 # 🦇 HIT140 Group Project - Bat and Rat Behaviour Analysis (2025)
 
 
-https://deepnote.com/workspace/CDU-PROJECT-a61a9091-f959-456d-9fa1-960e3207a1a9/project/Avery-Doans-Untitled-project-74c414ef-560d-420d-b4af-809d2b670979/notebook/Notebook-1-f8610b95e75245d99f9b3a185ffb717d?utm_source=share-modal&utm_medium=product-shared-content&utm_campaign=notebook&utm_content=74c414ef-560d-420d-b4af-809d2b670979
+LINK FOR CODE: https://deepnote.com/workspace/CDU-PROJECT-a61a9091-f959-456d-9fa1-960e3207a1a9/project/Avery-Doans-Untitled-project-74c414ef-560d-420d-b4af-809d2b670979/notebook/Notebook-1-f8610b95e75245d99f9b3a185ffb717d?utm_source=share-modal&utm_medium=product-shared-content&utm_campaign=notebook&utm_content=74c414ef-560d-420d-b4af-809d2b670979
 
-Welcome to our group project for **HIT140: Foundations of Data Science**. In this project, we act as data detectives to support zoologists investigating the interactions between bats and rats at a shared food platform.
+LINK FOR RESULT REFERENCE: https://mlorbach.gitlab.io/datasets/
 
+**HIT140: Foundations of Data Science**. In this project, we act as data detectives to support zoologists investigating the interactions between bats and rats at a shared food platform.
 ---
 
 ## 📌 Project Overview
@@ -14,7 +15,6 @@ We aim to answer two key scientific investigations using real-world surveillance
 ### 🔍 Investigations
 - **Investigation A**: Do bats perceive rats as competitors or predators?  
 - **Investigation B**: How do bat-rat interactions change across seasons?
-
 ---
 
 ## 🗂️ Datasets Used
@@ -59,10 +59,10 @@ Each row represents a **30-minute surveillance period** at the food platform. It
 
 ## 🧭 Project Timeline & Tasks
 
-### 🔹 Phase 1: Setup and Planning (Week 1)
-- Understand project objectives
-- Assign team roles (Analyst, Cleaner, Visualizer, Presenter, Writer)
-- Create shared workspace (Google Drive / GitHub)
+### 🔹 Phase 1: Setup and Planning
+- Understand project objectives (Read the pdf on Learnline and the dataset description here)
+- Assign team roles (Analyst, Cleaner, Visualizer, Writer)
+- Create shared workspace Github and Deepnote
 - Download datasets from Learnline
 
 ### 🔹 Phase 2: Data Exploration & Cleaning (Week 2)
@@ -71,21 +71,21 @@ Each row represents a **30-minute surveillance period** at the food platform. It
 - Perform exploratory data analysis (EDA)
 - Create summary stats and graphs
 
-### 🔹 Phase 3: Investigation A – Bat Perception of Rats (Week 3–4)
+### 🔹 Phase 3: Investigation A – Bat Perception of Rats 
 - Feature engineering: Rat presence, response time, risk-taking
 - Descriptive stats: Behaviour with vs without rats
 - Inferential analysis: t-tests, chi-square tests
 - Visualizations: Boxplots, bar graphs, timelines
 - Deliverable: Team video presentation (Assessment 2)
 
-### 🔹 Phase 4: Investigation B – Seasonal Behaviour Changes (Week 5–6)
+### 🔹 Phase 4: Investigation B – Seasonal Behaviour Changes
 - Filter datasets by `season` and `month`
 - Analyze seasonal trends in bat and rat activity
 - Compare behaviour across winter vs spring
 - Optional: incorporate external environmental data
 - Deliverable: Analytical content for group report (Assessment 3)
 
-### 🔹 Phase 5: Group Report Writing (Week 6–7)
+### 🔹 Phase 5: Group Report Writing
 - Structure the report:
   - Introduction
   - Methodology
@@ -96,35 +96,8 @@ Each row represents a **30-minute surveillance period** at the food platform. It
   - AI tools usage declaration
 - Peer review & editing
 
-### 🔹 Phase 6: Final Submission (Week 8)
+### 🔹 Phase 6: Final Submission
 - Review Learnline instructions
 - Final polish and formatting
 - Submit report and forms on time
-
----
-
-## 🧰 Tools & Libraries
-
-- Python: `pandas`, `numpy`, `matplotlib`, `seaborn`, `scipy.stats`, `statsmodels`
-- Jupyter Notebook for analysis
-- GitHub / Google Drive for collaboration
-- PowerPoint + OBS/Zoom for presentation
-
----
-
-## 📎 Notes
-
-- Ethical analysis is required — no altering of original data values to suit desired outcomes.
-- Feature engineering is encouraged.
-- Expect real-world “dirty” data: missing, inconsistent, and irregular values.
-
----
-
-## 📚 Acknowledgement
-
-Project derived from:
-Chen, Xing et al. (2025), “Complex competition interactions between Egyptian fruit bats and black rats in the real world”, Mendeley Data, V1, doi: [10.17632/gt7j39b2cf.1](https://doi.org/10.17632/gt7j39b2cf.1) (License CC BY 4.0)
-
-Adapted by Dr Yakub Sebastian for HIT140, CDU.
-
 ---
