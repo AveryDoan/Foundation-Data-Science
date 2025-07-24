@@ -5,7 +5,9 @@ LINK FOR CODE: https://deepnote.com/workspace/CDU-PROJECT-a61a9091-f959-456d-9fa
 
 LINK FOR RESULT REFERENCE: https://mlorbach.gitlab.io/datasets/
 
-**HIT140: Foundations of Data Science**. In this project, we act as data detectives to support zoologists investigating the interactions between bats and rats at a shared food platform.
+**HIT140: Foundations of Data Science**. 
+
+####In this project, we act as data detectives to support zoologists investigating the interactions between bats and rats at a shared food platform.
 ---
 
 ## 📌 Project Overview
