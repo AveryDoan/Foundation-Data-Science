@@ -68,8 +68,8 @@ Each row represents a **30-minute surveillance period** at the food platform. It
 - Download datasets from Learnline
 
 ### 2: Data Exploration & Cleaning (Week 2)
-- Inspect data types, missing values, and outliers
-- Clean and preprocess data ethically
+- data types, missing values, and outliers
+- Clean and preprocess data, feature engineering if needed
 - Perform exploratory data analysis (EDA)
 - Create summary stats and graphs
 
