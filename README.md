@@ -19,8 +19,41 @@ We aim to answer two key scientific investigations using real-world surveillance
 
 ## 🗂️ Datasets Used
 
-1. **dataset1.csv** – Observations of individual bat landings and behaviour  
-2. **dataset2.csv** – Summary of 30-minute periods showing bat and rat activity
+## 📁 Dataset 1: `dataset1.csv` — Individual Bat Landings
+
+Each row represents a **single bat landing event** at the food platform. It captures the context of the event, the bat’s response, and whether it got a reward.
+
+| Column Name              | What it Means |
+|--------------------------|---------------|
+| `start_time`             | When the bat landed on the platform (timestamp). |
+| `bat_landing_to_food`    | How long (in seconds) it took the bat to start approaching food after landing. A longer delay may indicate caution or fear. |
+| `habit`                  | Description of the environment or situation during the event (e.g. how noisy, crowded, etc.). |
+| `rat_period_start`       | The time when the rats first arrived on the platform. |
+| `rat_period_end`         | The time when the rats left the platform. |
+| `seconds_after_rat_arrival` | Time (in seconds) between rat arrival and bat landing. Negative = bat landed before rats. |
+| `risk`                   | Did the bat take a risk? (0 = avoided risk, 1 = took risk, e.g. attacking or approaching rats). |
+| `reward`                 | Did the bat get a reward (e.g. food)? (0 = no, 1 = yes). |
+| `month`                  | The month the landing occurred (e.g. "June"). |
+| `sunset_time`            | The time of sunset on the observation day. |
+| `hours_after_sunset`     | Time (in hours) after sunset that the bat landed. |
+| `season`                 | Season of the observation (e.g. "Winter", "Spring"). |
+
+---
+
+## 📁 Dataset 2: `dataset2.csv` — 30-Minute Observation Periods
+
+Each row represents a **30-minute surveillance period** at the food platform. It summarizes how many bats and rats were observed, and how much food remained.
+
+| Column Name              | What it Means |
+|--------------------------|---------------|
+| `time`                   | Start time of the 30-minute observation period. |
+| `month`                  | The month the observation occurred. |
+| `hours_after_sunset`     | Time (in hours) after sunset when the observation started. |
+| `bat_landing_number`     | Total number of bat landings during the 30-minute period. |
+| `food_availability`      | Estimated amount of food remaining at the end of the period (unit not specified). |
+| `rat_minutes`            | Total minutes rats were seen on the platform during the 30 minutes. |
+| `rat_arrival_number`     | Number of distinct rat arrivals during the 30-minute observation window. |
+
 
 ---
 
