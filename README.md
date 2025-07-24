@@ -1,4 +1,4 @@
-# 🦇 HIT140 Group Project - Bat and Rat Behaviour Analysis (2025)
+# HIT140 Group Project - Bat and Rat Behaviour Analysis (2025)
 
 
 LINK FOR CODE: https://deepnote.com/workspace/CDU-PROJECT-a61a9091-f959-456d-9fa1-960e3207a1a9/project/Avery-Doans-Untitled-project-74c414ef-560d-420d-b4af-809d2b670979/notebook/Notebook-1-f8610b95e75245d99f9b3a185ffb717d?utm_source=share-modal&utm_medium=product-shared-content&utm_campaign=notebook&utm_content=74c414ef-560d-420d-b4af-809d2b670979
@@ -7,21 +7,21 @@ LINK FOR RESULT REFERENCE: https://mlorbach.gitlab.io/datasets/
 
 **HIT140: Foundations of Data Science**. 
 
-####In this project, we act as data detectives to support zoologists investigating the interactions between bats and rats at a shared food platform.
+#### In this project, we act as data detectives to support zoologists investigating the interactions between bats and rats at a shared food platform.
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 answer two key scientific investigations using real-world surveillance data:
 
-### 🔍 Investigations
+###  Investigations
 - **Investigation A**: Do bats perceive rats as competitors or predators?  
 - **Investigation B**: How do bat-rat interactions change across seasons?
 ---
 
-## 🗂️ Datasets Used
+##  Datasets Used
 
-### 📁 Dataset 1: `dataset1.csv` — Individual Bat Landings
+###  Dataset 1: `dataset1.csv` — Individual Bat Landings
 
 Each row represents a **single bat landing event** at the food platform. It captures the context of the event, the bat’s response, and whether it got a reward.
 
@@ -42,7 +42,7 @@ Each row represents a **single bat landing event** at the food platform. It capt
 
 ---
 
-### 📁 Dataset 2: `dataset2.csv` — 30-Minute Observation Periods
+###  Dataset 2: `dataset2.csv` — 30-Minute Observation Periods
 
 Each row represents a **30-minute surveillance period** at the food platform. It summarizes how many bats and rats were observed, and how much food remained.
 
@@ -59,7 +59,7 @@ Each row represents a **30-minute surveillance period** at the food platform. It
 
 ---
 
-## 🧭 Project Tasks
+## � Project Tasks
 
 ### 1: Setup and Planning
 - Understand project objectives (Read the pdf on Learnline and the dataset description here)
