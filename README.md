@@ -63,7 +63,7 @@ Each row represents a **30-minute surveillance period** at the food platform. It
 
 ### 1: Setup and Planning
 - Understand project objectives (Read the pdf on Learnline and the dataset description here)
-- Assign team roles (Analyst - 2 people, Cleaner - 2 people, Visualizer - 2, Writer - 4)
+- Assign team roles (Analyst - 2 people, Preprocessing data - 2 people, Powerpoint - 1, Writer - 4)
 - Create shared workspace Github and Deepnote
 - Download datasets from Learnline
 
